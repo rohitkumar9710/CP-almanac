@@ -9,7 +9,7 @@ Participants must follow these guidelines in order to participate in the project
 <li>Communicate: Feel free to ask any questions you may have on our Discord channel (#cp-almanac).</li>
 </ul>
 
-##Pre-requisites
+## Pre-requisites
 <ul>
 <li>Basic Git and Git-Hub</li>
 <li>C/C++</li>
