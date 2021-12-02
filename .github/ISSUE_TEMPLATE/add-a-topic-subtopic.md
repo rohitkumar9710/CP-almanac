@@ -1,8 +1,8 @@
 ---
 name: Add-a-topic-subtopic
 about: Here, you can propose any topic or subtopic that needs to be added in the documentation
-title: ''
-labels: ''
+title: 'topic name'
+labels: 'documentation'
 assignees: ''
 
 ---
