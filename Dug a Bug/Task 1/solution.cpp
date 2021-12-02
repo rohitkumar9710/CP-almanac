@@ -29,6 +29,11 @@ void kahn(int n)
             }
         }
     }
+    int len = res.size();
+    if(len != n){
+        cout<<"Sandro fails."<<"\n";
+        return;
+    }
 
     for (auto x: res)
     {
@@ -45,8 +50,8 @@ int main()
     {
         cin >> x >> y;
         adj[x].push_back(y);
-        adj[y].push_back(x);
-        in[x]++;
+       // adj[y].push_back(x);
+       // in[x]++;
         in[y]++;
     }
     kahn(n);
