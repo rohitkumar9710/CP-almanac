@@ -13,7 +13,7 @@ Write your answer here
 ### Enter sub-topic name(eg- for priority queue, Prim's algorithm)
 Write your answer here
 
-### Kindly mention your real name here
+### Mention your full name here
 
 <br><br>
 
