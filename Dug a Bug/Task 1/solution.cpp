@@ -29,6 +29,11 @@ void kahn(int n)
             }
         }
     }
+    int len = res.size();
+    if(len != n){
+        cout<<"Sandro fails."<<"\n";
+        return;
+    }
 
     for (auto x: res)
     {
