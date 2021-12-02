@@ -1,6 +1,6 @@
 ---
 name: Add-a-bug-finding-question
-about: Here, you can propose a question along with a bugged solution which should
+about: Here, you can propose a question along with a bugged solution which shouldn't
   work for the question of course.
 title: Question title
 labels: ''
