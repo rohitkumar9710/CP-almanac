@@ -20,7 +20,3 @@ Write your answer here
 ### Mention your full name here:
 
 <br><br>
-
-<br>
-
-By creating/claiming the issue or by creating PR(pull request) for this issue you agree to the below conditions -
