@@ -14,7 +14,7 @@ Write your answer here
 ### Enter the link to the question, if available on any platforms (Eg: Codeforces, CodeChef).
 Write your answer here
 
-###Enter you bugged solution here (language used should be C/C++):
+### Enter your bugged solution here (language used should be C/C++):
 Write your answer here
 
 ### Mention your full name here:
