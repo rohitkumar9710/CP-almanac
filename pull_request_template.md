@@ -13,6 +13,11 @@ Kindly write your answer here
 ### Topic you have been working upon
 Write your answer here
 
+<br>
+
+### One screenshot of the document
+Write your answer here
+
 # 2) Form 2
 ### Issue Id - 
 Kindly write your answer here
@@ -20,4 +25,9 @@ Kindly write your answer here
 <br>
 
 ### Task number you were finding the bug in
+Write your answer here
+
+<br>
+
+### Screenshot of the line where you found the bug
 Write your answer here
