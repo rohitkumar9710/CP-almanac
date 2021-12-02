@@ -24,10 +24,5 @@ Kindly write your answer here
 
 <br>
 
-### Task number you were finding the bug in
-Write your answer here
-
-<br>
-
 ### Screenshot of the line where you found the bug
 Write your answer here
