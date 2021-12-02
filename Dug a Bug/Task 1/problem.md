@@ -6,7 +6,6 @@ Sandro is a well organised person. Every day he makes a list of things which nee
 ### Input
 
 In the first line you are given an integer n and m (1<=n<=10000, 1<=m<=1000000). On the next m lines there are two distinct integers x and y, (1<=x,y<=10000) describing that job x needs to be done before job y.
-
 <br>
 
 ### Output
