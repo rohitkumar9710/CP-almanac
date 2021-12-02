@@ -1,0 +1,26 @@
+[
+    {
+        "Name": "your name",
+        "NickName": "your nickname",
+        "Institute": "insititute name",
+        "Graduation Year": "YYYY",
+
+        "GitHub ID": "url",
+        "Codechef id": "url",
+        "Codeforces id": "url",
+        "Discord username": "username",
+        "LinkedIn": "url"
+    },
+    {
+        "Name": "your name",
+        "NickName": "your nickname",
+        "Institute": "insititute name",
+        "Graduation Year": "YYYY",
+
+        "GitHub ID": "url",
+        "Codechef id": "url",
+        "Codeforces id": "url",
+        "Discord username": "username",
+        "LinkedIn": "url"
+    }
+]
