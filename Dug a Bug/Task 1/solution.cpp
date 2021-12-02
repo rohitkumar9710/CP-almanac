@@ -1,48 +1,53 @@
-#include<bits/stdc++.h>
- 
+#include <bits/stdc++.h>
 using namespace std;
- 
-vector<int> arr[10001];
+
 vector<int> res;
-int in[10001];
- 
-void kahn(int n){
-   priority_queue<int, vector<int>, greater<int>>q;
-    for(int i=1;i<=n;i++){
-        if(in[i]==0){
+vector<int> adj[100001];
+int in[100001];
+
+void kahn(int n)
+{
+    priority_queue<int, vector<int>, greater<int>> q;
+    for (int i = 1; i <= n; i++)
+    {
+        if (in[i] == 0)
+        {
             q.push(i);
         }
     }
-    while(!q.empty()){
+    while (!q.empty())
+    {
         int curr = q.top();
-        res.push_back(curr);
         q.pop();
-        for(int node : arr[curr]){
-            in[node]--;
-            if(in[node]==0){
-                q.push(node);
+        res.push_back(curr);
+        for (auto x: adj[curr])
+        {
+            in[x]--;
+            if (in[x] == 0)
+            {
+                q.push(x);
             }
         }
     }
-    int len = res.size();
-    if(len != n){
-        cout<<"Sandro fails."<<"\n";
-        return;
+
+    for (auto x: res)
+    {
+        cout << x << " ";
     }
-    for(int i=0;i<len;i++){
-        cout<<res[i]<<" ";
-    }
-    cout<<"\n";
+    cout << endl;
 }
- 
-int main(){
-    int n,m,a,b;
-    cin>>n>>m;
-    for(int i=0;i<m;i++){
-        cin>>a>>b;
-        arr[a].push_back(b);
-        in[b]++;
+
+int main()
+{
+    int n, m, x, y;
+    cin >> n >> m;
+    for (int i = 1; i <= m; i++)
+    {
+        cin >> x >> y;
+        adj[x].push_back(y);
+       // adj[y].push_back(x);
+       // in[x]++;
+        in[y]++;
     }
     kahn(n);
-} 
-
+}
