@@ -62,7 +62,7 @@ is incremented.
 
 #### Simple Example
 
-![graph-pic1](https://github.com/shubhamshankar28/pcaprepo/blob/main/Edmonds-Karp1.JPG)
+![graph-pic1](https://github.com/shubhamshankar28/pcaprepo/blob/main/Edmonds-Karp1.JPG?raw=true)
 
 Here 1 is the source node and 3 is the destination node.
 Initially there are three augmenting paths (1,2,3) , (1,4,3) and (1,2,4,3). <br>
@@ -70,11 +70,11 @@ Since the algorithm chooses the smallest length path that is one of (1,2,3) or (
 let (1,2,3) be chosen. The value of the max flow will be 1000. <br>
 Now the residual graph looks like this.
 
-![graph-pic2](https://github.com/shubhamshankar28/pcaprepo/blob/main/Edmonds-Karp2.JPG)
+![graph-pic2](https://github.com/shubhamshankar28/pcaprepo/blob/main/Edmonds-Karp2.JPG?raw=true)
 
 At this point (1,4,3) will be chosen as the augmenting path.The value of max flow will be 2000.The residual graph will look like this
 
-![graph-pic3](https://github.com/shubhamshankar28/pcaprepo/blob/main/Edmonds-Karp3.JPG)
+![graph-pic3](https://github.com/shubhamshankar28/pcaprepo/blob/main/Edmonds-Karp3.JPG?raw=true)
 
 Now at this point no augmenting paths are present hence the algorithm will terminate and 2000 will be returned as the Max Flow.
 <br>
@@ -87,14 +87,14 @@ A maximum matching is the matching with largest size. <br>
 Let us see how Edmonds-Karp algorithm can be used to compute the size of the maximum matching in a graph.<br>
 Consider the bipartite graph shown below
 
-![graph-pic4](https://github.com/shubhamshankar28/pcaprepo/blob/main/Edmonds-Karp4.JPG)
+![graph-pic4](https://github.com/shubhamshankar28/pcaprepo/blob/main/Edmonds-Karp4.JPG?raw=true)
 
 We will add a virtual source node and a virtual destination node. All the undirected edges are converted to directed edges such that the edges
 point from source to destination.We must also add directed edges the from the virtual source node 9 to all nodes on the left side. Also we
 add directed edges from the nodes on the right hand side to the virtual destination node 10. The capacity of each edge is 1 unit.
 The new graph is shown below
 
-![graph-pic5](https://github.com/shubhamshankar28/pcaprepo/blob/main/Edmonds-Karp5.JPG)
+![graph-pic5](https://github.com/shubhamshankar28/pcaprepo/blob/main/Edmonds-Karp5.JPG?raw=true)
 
 Edmonds-Karp algorithm is used to compute the maximum flow of this graph. This value of maximum flow is equal to the size of the maximum matching.
 We can modify the Edmonds-Karp Algorithm to return the exact flow and thereby we can obtain the edges in the maximum matching.<br>
