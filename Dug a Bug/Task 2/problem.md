@@ -12,30 +12,30 @@ Your task is to find out if the pair (a,b) is x-magic or not.
 You have to answer t independent test cases.
 
 ### Input
-The first line of the input contains one integer t (1≤t≤104) — the number of test cases. The next t lines describe test cases.
+The first line of the input contains one integer t (1≤t≤10<sup>4</sup>) — the number of test cases. The next t lines describe test cases.
 
-The only line of the test case contains three integers a, b and x (1≤a,b,x≤1018).
+The only line of the test case contains three integers a, b and x (1≤a,b,x≤10<sup>18</sup>).
 
 ### Output
 For the i-th test case, print YES if the corresponding pair (a,b) is x-magic and NO otherwise.
 
 #### Input
-8
-6 9 3
-15 38 7
-18 8 8
-30 30 30
-40 50 90
-24 28 20
-365 216 52
-537037812705867558 338887693834423551 3199921013340
+8<br>
+6 9 3<br>
+15 38 7<br>
+18 8 8<br>
+30 30 30<br>
+40 50 90<br>
+24 28 20<br>
+365 216 52<br>
+537037812705867558 338887693834423551 3199921013340<br>
 
 #### Correct Output
-YES
-YES
-YES
-YES
-NO
-YES
-YES
-YES
+YES<br>
+YES<br>
+YES<br>
+YES<br>
+NO<br>
+YES<br>
+YES<br>
+YES<br>
