@@ -2,19 +2,20 @@
 You are given a pair of integers (a,b) and an integer x.
 You can change the pair in two different ways:
 
-set (assign) a:=|a−b|;
-set (assign) b:=|a−b|,
-where |a−b| is the absolute difference between a and b.
-The pair (a,b) is called x-magic if x is obtainable either as a or as b using only the given operations (i.e. the pair (a,b) is x-magic if a=x or b=x after some number of operations applied). You can apply the operations any number of times (even zero).
+set (assign) a:=|a−b|;<br>
+set (assign) b:=|a−b|,<br>
 
-Your task is to find out if the pair (a,b) is x-magic or not.
+where |a−b| is the absolute difference between a and b.<br>
+The pair (a,b) is called x-magic if x is obtainable either as a or as b using only the given operations (i.e. the pair (a,b) is x-magic if a=x or b=x after some number of operations applied). You can apply the operations any number of times (even zero).<br>
 
-You have to answer t independent test cases.
+Your task is to find out if the pair (a,b) is x-magic or not.<br>
+
+You have to answer t independent test cases.<br>
 
 ### Input
-The first line of the input contains one integer t (1≤t≤10<sup>4</sup>) — the number of test cases. The next t lines describe test cases.
+The first line of the input contains one integer t (1≤t≤10<sup>4</sup>) — the number of test cases. The next t lines describe test cases.<br>
 
-The only line of the test case contains three integers a, b and x (1≤a,b,x≤10<sup>18</sup>).
+The only line of the test case contains three integers a, b and x (1≤a,b,x≤10<sup>18</sup>).<br>
 
 ### Output
 For the i-th test case, print YES if the corresponding pair (a,b) is x-magic and NO otherwise.
