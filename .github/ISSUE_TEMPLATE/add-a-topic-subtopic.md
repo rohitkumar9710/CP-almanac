@@ -18,7 +18,7 @@ Write your answer here
 <br><br>
 
 
-### Templates for reference - [.txt](https://github.com/rohitkumar9710/CP-almanac/blob/main/Documentation/Reference.md)
+### Templates for reference - [.md](https://github.com/rohitkumar9710/CP-almanac/blob/main/Documentation/Reference.md)
 
 <br>
 
