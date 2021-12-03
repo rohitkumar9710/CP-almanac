@@ -30,14 +30,23 @@ int main()
         bool flag = 0;
         while (true)
         {
+            if (a < b)
+            {
+                swap(a, b);
+            }
+            if (x >= a)
+            {
+                break;
+            }
+            if(diff==0)
+            {
+                if(flag==1)cout << "YES" << endl;
+                break;
+            }
             if (x >= diff && (a - x) % diff == 0)
             {
                 cout << "YES" << endl;
                 flag = 1;
-                break;
-            }
-            if (x >= a)
-            {
                 break;
             }
             a = a - (((a - diff) / diff) * diff);
