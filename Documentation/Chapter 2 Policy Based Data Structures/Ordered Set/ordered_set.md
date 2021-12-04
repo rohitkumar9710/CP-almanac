@@ -33,7 +33,7 @@ Here n is the number of elements present in the data structure.
 
 Now I hope that you can see that the difference is coming in the last two operations right .Why can’t the set data structure find the index of given element in O(n) ?  Why can’t it do it in the following way to get index of element ?
 
-```int idx=S.lower\_bound()-S.begin();```
+```int idx=S.lower_bound()-S.begin();```
 
 The above piece of code will throw an error .What could be the reason ? 
 **The reason is** in set data structure the iterators are non random-access iterators .
