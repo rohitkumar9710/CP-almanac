@@ -14,5 +14,5 @@ The next line contains a single integer q (1≤q≤2⋅10<sup>5</sup>)  — the 
 
 q lines follow. Each line contains two integers x<sub>1</sub>,x<sub>2</sub> (1≤x<sub>1</sub>≤x<sub>2</sub>≤m), representing a query asking whether the subgrid of a containing the columns x<sub>1</sub>,x<sub>1</sub>+1,…,x<sub>2</sub>−1,x<sub>2</sub> is determinable.<br>
 
-Output
+### Output
 For each query, output one line containing "YES" if the subgrid specified by the query is determinable and "NO" otherwise. The output is case insensitive (so "yEs" and "No" will also be accepted).
