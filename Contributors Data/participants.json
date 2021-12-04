@@ -68,5 +68,12 @@
         "Institute": "Indian Institute of Technology, Patna",
         "GitHub ID": "https://github.com/Code-Aditya-14",
         "Discord username": "Aditya Kumar Singh#0867",
+    },
+    {
+        "Name": "your name",
+        "NickName": "your nickname",
+        "Institute": "your institute",
+        "GitHub ID": "url",
+        "Discord username": "username",
     }
 ]
