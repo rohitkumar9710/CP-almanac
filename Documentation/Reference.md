@@ -17,3 +17,8 @@
 #### *A Medium level question or application along with the approach to solve the same and the pseudocode should be given here. Kindly remove this line before creating a PR
 
 <br>
+
+### Practice Problems(2 -3)
+#### *Add some medium-hard level practice problems' links realted to the topic. Kindly remove this line before creating a PR
+
+<br>
