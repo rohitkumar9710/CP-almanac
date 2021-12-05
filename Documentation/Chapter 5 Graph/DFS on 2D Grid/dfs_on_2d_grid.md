@@ -1,11 +1,9 @@
-### Topic name - Graph
- 
-### Sub-topic - DFS on 2D Grid
 
+## DFS on 2D Grid
 <br>
 
 ### What actually is DFS on 2-D Grid?
-#### Depth First Search on 2-D Grid is a basic algorithm for traversing or searching 2-D grids. Given idea can also be extended to grids with more than 2 dimensions.
+#### Depth First Search on 2-D Grid is a basic algorithm for traversing or searching 2-D grids. Idea explained here can also be extended to grids with more than 2 dimensions.
 
 <br>
 
@@ -95,6 +93,7 @@ int main()
 ```
  -1 2 3 8 1 0 9 0 1
  ```
+ <br>
  
  ![image](https://user-images.githubusercontent.com/62798923/144748067-47ff5d30-bb12-45b6-9730-e7332e9d6b64.png)
 
