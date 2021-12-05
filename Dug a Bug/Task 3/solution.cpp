@@ -28,26 +28,18 @@ int main()
             }
         }
     }
-
     cin >> q;
     for (int i = 0; i < q; i++)
     {
         cin >> a >> b;
-        auto it = s.lower_bound(a);
+        auto it = s.upper_bound(a);
         if (it == s.end())
         {
             cout << "YES" << endl;
         }
         else if (*it <= b)
         {
-            if ((a <= (*it)) && ((*it) <= b))
-            {
-                cout << "NO" << endl;
-            }
-            else
-            {
-                cout << "YES" << endl;
-            }
+            cout << "NO" << endl;
         }
         else
         {
