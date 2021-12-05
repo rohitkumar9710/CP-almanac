@@ -12,7 +12,7 @@
 #### Depth First Search (DFS) on 2D Grid is similar to DFS on graph , so we can interpret each grid cell as node of a graph but here edges will always in between adjacent grid cells(up,down,left,right). The algorithm starts at the root node (we can select some arbitrary grid cell as the root node) and explores as far as possible along each cell before backtracking. So the basic idea is to start from the root or any arbitrary grid cell and mark the grid cell as visited and move to the adjacent unmarked grid cell and continue traversing until there is no unmarked grid cell.
 #### Algorithm :
 #### 1. Initialize an auxiliary boolean 2D array of dimensions equal to grid size with all values as false, which is used to mark the visited cells.
-#### 2. Declare a function isValid() to check if the cell coordinates are valid or not, i.e lies within the boundaries of the given grid and is unvisited or not.
+#### 2. Declare a function isValid() to check if the cell coordinates are valid or not, i.e lies within the boundaries of the given grid and is unvisited.
 #### 3. Create a recursive function that takes coordinates of the grid cell to be visited next, grid array,and bool visited array as input.
 #### 4. Call the function created above with any valid grid cell coordinates.
 #### 5. Mark the current grid cell as visited and print the value contained in grid cell.
