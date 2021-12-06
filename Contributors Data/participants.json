@@ -105,6 +105,13 @@
         "Discord username": "DOGE#4084",
     },
      {
+        "Name": "Deepanker Jauhari",
+        "NickName": "DeeJay",
+        "Institute": "Indian Institute of Technology, Patna",
+        "GitHub ID": "https://github.com/Deepanker-Jauhari",
+        "Discord username": "DeeJay#5908",
+    },
+     {
         "Name": "your name",
         "NickName": "your nickname",
         "Institute": "your institute",
@@ -118,5 +125,6 @@
         "GitHub ID": "url",
         "Discord username": "username",
     }
+    
     
 ]
