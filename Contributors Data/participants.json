@@ -124,6 +124,12 @@
         "Institute": "your institute",
         "GitHub ID": "url",
         "Discord username": "username",
+    },
+    {
+        "Name": "Atharva Deshmukh",
+        "NickName": "Atharva1763",
+        "Institute": "Indian Institute of Technology,Patna",
+        "GitHub ID": "https://github.com/Atharva1763",
+        "Discord username": "Atharva1763#4300",
     }
-    
 ]
