@@ -104,19 +104,53 @@
         "GitHub ID": "https://github.com/ayushs404",
         "Discord username": "DOGE#4084",
     },
-     {
+    {
         "Name": "Suraj S Warrier",
         "NickName": "Suraj",
         "Institute": "IITP",
         "GitHub ID": "https://github.com/SurajSWarrier",
         "Discord username": "SurajSWarrier",
     },
-     {
+    {
+        "Name": "Deepanker Jauhari",
+        "NickName": "DeeJay",
+        "Institute": "Indian Institute of Technology, Patna",
+        "GitHub ID": "https://github.com/Deepanker-Jauhari",
+        "Discord username": "DeeJay#5908",
+    },
+    {
+        "Name": "Aditya Poddar",
+        "NickName": "Adi",
+        "Institute": "Indian Insititute of Technology, Patna",
+        "GitHub ID": "https://github.com/AdiCoder03",
+        "Discord username": "Adi03#4841"
+    },
+    {
         "Name": "your name",
         "NickName": "your nickname",
         "Institute": "your institute",
         "GitHub ID": "url",
         "Discord username": "username",
+    },
+    {
+        "Name": "Aishez singh",
+        "NickName": "Aishez",
+        "Institute": "IIT patna",
+        "GitHub ID": "https://github.com/aishez/",
+        "Discord username": "aishez",
+    },
+    {
+        "Name": "your name",
+        "NickName": "your nickname",
+        "Institute": "your institute",
+        "GitHub ID": "url",
+        "Discord username": "username",
+    },
+    {
+        "Name": "Atharva Deshmukh",
+        "NickName": "Atharva1763",
+        "Institute": "Indian Institute of Technology,Patna",
+        "GitHub ID": "https://github.com/Atharva1763",
+        "Discord username": "Atharva1763#4300",
     }
-    
 ]
