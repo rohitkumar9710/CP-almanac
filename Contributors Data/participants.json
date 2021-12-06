@@ -117,6 +117,12 @@
         "Institute": "your institute",
         "GitHub ID": "url",
         "Discord username": "username",
+    },
+     {
+        "Name": "Kirtan Jain",
+        "NickName": "JK",
+        "Institute": "Indian Institute Of Technology Patna",
+        "GitHub ID": "https://github.com/kirtan05",
+        "Discord username": "Kirtan#9471",
     }
-    
 ]
