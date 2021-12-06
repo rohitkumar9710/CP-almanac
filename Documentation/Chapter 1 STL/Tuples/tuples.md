@@ -118,7 +118,7 @@ Suppose if we want to combine 10 tuples then it will be really messy if we want 
 The returned tuple will have all the elements that are present in the tuples which are participated in concatenation
 
 ## tie
-It is also used to access values but it is more preferable than get when we want to access more elements in tuple. Because if we want to assign variables to each element present in tuple (link in first example shown above) we need to use get operation n times (assuming n is number of elements in tuple) but it requires only one tie operation to do so.
+It is also used to access values but it is more preferable than get when we want to access more elements in tuple. Because if we want to assign variables to each element present in tuple (like in first example shown above) we need to use get operation n times (assuming n is number of elements in tuple) but it requires only one tie operation to do so.
 ```
 int int_variable;
 char char_variable;
