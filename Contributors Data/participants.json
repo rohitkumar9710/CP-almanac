@@ -105,6 +105,13 @@
         "Discord username": "DOGE#4084",
     },
      {
+        "Name": "Adithya Rathod",
+        "NickName": "Adithya",
+        "Institute": "Indian Institute of Technology, Patna",
+        "GitHub ID": "https://github.com/AdithyaRathod-rockadds",
+        "Discord username": "rockadds#1927",
+    },
+     {
         "Name": "your name",
         "NickName": "your nickname",
         "Institute": "your institute",
@@ -117,6 +124,6 @@
         "Institute": "your institute",
         "GitHub ID": "url",
         "Discord username": "username",
-    }
+    },
     
 ]
