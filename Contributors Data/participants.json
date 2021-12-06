@@ -104,19 +104,27 @@
         "GitHub ID": "https://github.com/ayushs404",
         "Discord username": "DOGE#4084",
     },
-     {
-        "Name": "your name",
-        "NickName": "your nickname",
-        "Institute": "your institute",
-        "GitHub ID": "url",
-        "Discord username": "username",
-    },
-     {
+ {
         "Name": "your name",
         "NickName": "your nickname",
         "Institute": "your institute",
         "GitHub ID": "url",
         "Discord username": "username",
     }
+ {
+        "Name": "your name",
+        "NickName": "your nickname",
+        "Institute": "your institute",
+        "GitHub ID": "url",
+        "Discord username": "username",
+    }
+     {
+        "Name": "Kalpit Agrawal",
+        "NickName": "Kalpit",
+        "Institute": "Indian institute Of Technology Patna",
+        "GitHub ID": "https://github.com/Kalpit1810",
+        "Discord username": "kalpit|CSE#5099",
+    },
+    
     
 ]
