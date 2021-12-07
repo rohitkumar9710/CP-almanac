@@ -51,7 +51,7 @@ Now min heap contains 5 nodes where 4 nodes are roots of trees with single eleme
 character           Frequency<br>
        c ---------- 12<br>
        d ----------13<br>
- Internal Node -----  14<br>
+ Internal Node --  14<br>
        e ---------- 16<br>
        f ---------- 45<br>
 
@@ -59,17 +59,17 @@ Step 3: Extract two minimum frequency nodes from heap. Add a new internal node w
 Now min heap contains 4 nodes where 2 nodes are roots of trees with single element each, and two heap nodes are root of tree with more than one nodes<br>
 
 character           Frequency<br>
-Internal Node ----- 14<br>
+Internal Node -- 14<br>
        e ---------- 16<br>
-Internal Node ----- 25<br>
+Internal Node -- 25<br>
        f ---------- 45<br>
 
 Step 4: Extract two minimum frequency nodes. Add a new internal node with frequency 14 + 16 = 30 
 Now min heap contains 3 nodes.<br>
 
 character          Frequency<br>
-Internal Node   -----      25<br>
-Internal Node -----        30<br>
+Internal Node  --      25<br>
+Internal Node --       30<br>
       f    ----------           45 <br>
 
 Step 5: Extract two minimum frequency nodes. Add a new internal node with frequency 25 + 30 = 55
@@ -77,13 +77,13 @@ Now min heap contains 2 nodes.<br>
 
 character     Frequency<br>
        f     ----------    45<br>
-Internal Node   ------ 55<br>
+Internal Node   -- 55<br>
 
 Step 6: Extract two minimum frequency nodes. Add a new internal node with frequency 45 + 55 = 100
 Now min heap contains only one node.<br>
 
 character      Frequency<br>
-Internal Node -----   100<br>
+Internal Node --   100<br>
 Since the heap contains only one node, the algorithm stops here.
 
 Steps to print codes from Huffman Tree:
