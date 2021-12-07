@@ -221,7 +221,13 @@
         "NickName": "your nickname",
         "Institute": "your institute",
         "GitHub ID": "url",
-        "Discord username": "username",
+        "Discord username": "username"
+		{
+        "Name": "Tarun Teja",
+        "NickName": "Tarun",
+        "Institute": "Indian Institute of Technology, Patna",
+        "GitHub ID": "https://github.com/Tarun15082003",
+        "Discord username": "samael#1578"	
     },
     {
         "Name": "M Shanmukha Priya",
