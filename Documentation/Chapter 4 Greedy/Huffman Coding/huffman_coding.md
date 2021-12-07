@@ -66,6 +66,8 @@ Internal Node -- 14<br>
        e ---------- 16<br>
 Internal Node -- 25<br>
        f ---------- 45<br>
+       ![image](https://user-images.githubusercontent.com/94114688/145012884-0e22b635-1ff2-4a7f-9a68-87fb63f60378.png)
+
 
 Step 4: Extract two minimum frequency nodes. Add a new internal node with frequency 14 + 16 = 30 
 Now min heap contains 3 nodes.<br>
@@ -74,6 +76,8 @@ character          Frequency<br>
 Internal Node  --      25<br>
 Internal Node --       30<br>
       f    ----------           45 <br>
+![image](https://user-images.githubusercontent.com/94114688/145012911-da7224c2-a2f9-4c69-bfc2-38383c11012f.png)
+
 
 Step 5: Extract two minimum frequency nodes. Add a new internal node with frequency 25 + 30 = 55
 Now min heap contains 2 nodes.<br>
@@ -82,15 +86,24 @@ character     Frequency<br>
        f     ----------    45<br>
 Internal Node   -- 55<br>
 
+![image](https://user-images.githubusercontent.com/94114688/145012954-790afb87-50ae-438c-802f-60f2b5c3883e.png)
+
+
 Step 6: Extract two minimum frequency nodes. Add a new internal node with frequency 45 + 55 = 100
 Now min heap contains only one node.<br>
 
 character      Frequency<br>
 Internal Node --   100<br>
+
+![image](https://user-images.githubusercontent.com/94114688/145013016-67275c2c-8a38-4570-a67e-0f9e906a40fd.png)
+
 Since the heap contains only one node, the algorithm stops here.
 
 Steps to print codes from Huffman Tree:
 Traverse the tree formed starting from the root. Maintain an auxiliary array. While moving to the left child, write 0 to the array. While moving to the right child, write 1 to the array. Print the array when a leaf node is encountered.
+
+![image](https://user-images.githubusercontent.com/94114688/145013066-b41f591a-a4af-431e-bd4e-f31afd49930c.png)
+
 The codes are as follows:
 
 character    code-word<br>
