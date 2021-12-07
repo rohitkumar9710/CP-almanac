@@ -35,9 +35,9 @@ Create a new internal node with a frequency equal to the sum of the two nodes fr
 Repeat steps#2 and #3 until the heap contains only one node. The remaining node is the root node and the tree is complete.
 Let us understand the algorithm with an example:<br>
 character   Frequency<br>
-    a    ----- 5<br>
-    b    ----- 9<br>
-    c    ----- 12<br>
+    a    ---------- 5<br>
+    b    -------- 9<br>
+    c    ------ 12<br>
     d    ----- 13<br>
     e    ----- 16<br>
     f    ----- 45<br>
