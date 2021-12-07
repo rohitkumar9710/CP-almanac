@@ -22,8 +22,8 @@ int main()
             if (a <= p)
             {
                 v1.push_back(a);
-                a = 0;
-                s.insert(p);
+                s.insert(a);
+                a = 0; 
                 p--;
             }
             else
@@ -60,8 +60,8 @@ int main()
             if (b <= p)
             {
                 v1.push_back(b);
+                s.insert(b);
                 b = 0;
-                s.insert(p);
                 p--;
             }
             else
