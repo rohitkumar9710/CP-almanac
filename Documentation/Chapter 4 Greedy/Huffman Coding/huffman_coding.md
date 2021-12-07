@@ -54,6 +54,9 @@ character           Frequency<br>
  Internal Node --  14<br>
        e ---------- 16<br>
        f ---------- 45<br>
+       ![image](https://user-images.githubusercontent.com/94114688/145012779-6bea5b73-41fc-42fc-9411-913fcc91b74f.png)
+
+       
 
 Step 3: Extract two minimum frequency nodes from heap. Add a new internal node with frequency 12 + 13 = 25
 Now min heap contains 4 nodes where 2 nodes are roots of trees with single element each, and two heap nodes are root of tree with more than one nodes<br>
