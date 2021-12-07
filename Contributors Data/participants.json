@@ -223,6 +223,13 @@
         "Discord username": "username",
     },
     {
+        "Name": "k.lahari",
+        "NickName": "lahari",
+        "Institute": "iit patna",
+        "GitHub ID": "https://github.com/LAHARI2003/LAHARI2003.git",
+        "Discord username": "username",
+    },
+    {
         "Name": "Aishez singh",
         "NickName": "Aishez",
         "Institute": "IIT patna",
@@ -235,6 +242,7 @@
         "Institute": "your institute",
         "GitHub ID": "url",
         "Discord username": "username"
+    },
 		{
         "Name": "Tarun Teja",
         "NickName": "Tarun",
