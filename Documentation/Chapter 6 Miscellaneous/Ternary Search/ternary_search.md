@@ -3,7 +3,8 @@
 <br>
 
 ### What is Ternary Search?
-#### Ternary Search is similar to binary search where we divide the array into two parts but in this algorithm, we divide the given array into three parts and determine which has the key (searched element). We can divide the array into three parts by taking mid1 and mid2 which can be calculated as shown below. Initially, l and r will be equal to 0 and n-1 respectively, where n is the length of the array. 
+#### Ternary Search is similar to binary search where we divide the array into two parts but in this algorithm, we divide the given array into three parts and determine which has the key (searched element). We can divide the array into three parts by taking mid1(denoted by m1) and mid2(denoted by m2) which can be calculated as shown below. Initially, l and r will be equal to 0 and n-1 respectively, where n is the length of the array. 
+![image](https://user-images.githubusercontent.com/62798923/145089272-07f637e6-3642-4fa7-808a-ec992b19c52b.png)
 
 #### Note : Array needs to be sorted to perform ternary search on it.
 <br>
@@ -14,14 +15,13 @@
 #### 3. If not, then we check whether the key is less than the element at mid1. If yes, then recur to the first part.
 #### 4. If not, then we check whether the key is greater than the element at mid2. If yes, then recur to the third part.
 #### 5. If not, then we recur to the second (middle) part.
+![image](https://user-images.githubusercontent.com/62798923/145089421-0af61e37-c3f9-4cc2-8a41-ab827585ad1a.png)
+
 
 <br>
 
-### Iterative implementation
+### Iterative implementation :
 ``` 
-// C++ program to illustrate
-// iterative approach to ternary search
-
 #include <iostream>
 using namespace std;
 
@@ -69,7 +69,6 @@ int ternarySearch(int l, int r, int key, int ar[])
 	return -1;
 }
 
-// Driver code
 int main()
 {
 	int l, r, p, key;
@@ -108,10 +107,8 @@ int main()
 }
 ```
 
-### Recursive implementation:
+### Recursive implementation :
 ```
-// C++ program to illustrate
-// recursive approach to ternary search
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -156,7 +153,6 @@ int ternarySearch(int l, int r, int key, int ar[])
 	return -1;
 }
 
-// Driver code
 int main()
 {
 	int l, r, p, key;
@@ -202,16 +198,19 @@ int main()
 Index of 5 is 4
 Index of 50 is -1
 ```
-### Time Complexity:
 
+### Time Complexity :
+![image](https://user-images.githubusercontent.com/62798923/145089514-58aad11e-c6a7-4096-938c-98d49715a56b.png)
+#### It can be visualized as follows: every time after evaluating the function at points m1 and m2, we are essentially ignoring about one third of the interval, either the left or right one. Thus the size of the search space is 2n/3 of the original one. Using master theorem, we can solve above recurrence , to get desired result.
 
-### Space Complexity:
+### Space Complexity : 
+#### Since we are using constant space , so space complexity is O(1).
 
 <br>
 
 ### Practice Problems
-#### 1.
-#### 2.
+#### 1. https://www.codechef.com/problems/AMCS03
+#### 2. https://www.spoj.com/problems/KOPC12A/
 #### 3. https://codeforces.com/problemset/problem/578/C
 
 <br>
