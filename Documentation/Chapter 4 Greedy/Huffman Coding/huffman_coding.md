@@ -36,11 +36,11 @@ Repeat steps#2 and #3 until the heap contains only one node. The remaining node 
 Let us understand the algorithm with an example:<br>
 character   Frequency<br>
     a    ---------- 5<br>
-    b    -------- 9<br>
-    c    ------ 12<br>
-    d    ----- 13<br>
-    e    ----- 16<br>
-    f    ----- 45<br>
+    b    ---------- 9<br>
+    c    ---------- 12<br>
+    d    ---------- 13<br>
+    e    ---------- 16<br>
+    f    ---------- 45<br>
 
 
 Step 1. Build a min heap that contains 6 nodes where each node represents root of a tree with single node.
@@ -49,41 +49,41 @@ Step 2 Extract two minimum frequency nodes from min heap. Add a new internal nod
 Now min heap contains 5 nodes where 4 nodes are roots of trees with single element each, and one heap node is root of tree with 3 elements.<br>
 
 character           Frequency<br>
-       c               12<br>
-       d               13<br>
- Internal Node         14<br>
-       e               16<br>
-       f                45<br>
+       c ---------- 12<br>
+       d ----------13<br>
+ Internal Node -----  14<br>
+       e ---------- 16<br>
+       f ---------- 45<br>
 
 Step 3: Extract two minimum frequency nodes from heap. Add a new internal node with frequency 12 + 13 = 25
 Now min heap contains 4 nodes where 2 nodes are roots of trees with single element each, and two heap nodes are root of tree with more than one nodes<br>
 
 character           Frequency<br>
-Internal Node          14<br>
-       e               16<br>
-Internal Node          25<br>
-       f               45<br>
+Internal Node ----- 14<br>
+       e ---------- 16<br>
+Internal Node ----- 25<br>
+       f ---------- 45<br>
 
 Step 4: Extract two minimum frequency nodes. Add a new internal node with frequency 14 + 16 = 30 
 Now min heap contains 3 nodes.<br>
 
 character          Frequency<br>
-Internal Node         25<br>
-Internal Node         30<br>
-      f               45 <br>
+Internal Node   -----      25<br>
+Internal Node -----        30<br>
+      f    ----------           45 <br>
 
 Step 5: Extract two minimum frequency nodes. Add a new internal node with frequency 25 + 30 = 55
 Now min heap contains 2 nodes.<br>
 
 character     Frequency<br>
-       f         45<br>
-Internal Node    55<br>
+       f     ----------    45<br>
+Internal Node   ------ 55<br>
 
 Step 6: Extract two minimum frequency nodes. Add a new internal node with frequency 45 + 55 = 100
 Now min heap contains only one node.<br>
 
 character      Frequency<br>
-Internal Node    100<br>
+Internal Node -----   100<br>
 Since the heap contains only one node, the algorithm stops here.
 
 Steps to print codes from Huffman Tree:
@@ -92,12 +92,12 @@ The codes are as follows:
 
 character    code-word<br>
 
-    f          0<br>
-    c          100<br>
-    d          101<br>
-    a          1100<br>
-    b          1101<br>
-    e          111<br>
+    f   ----------       0<br>
+    c    ----------      100<br>
+    d       ----------   101<br>
+    a     ----------     1100<br>
+    b       ----------   1101<br>
+    e    ----------      111<br>
 
 
 <br>
