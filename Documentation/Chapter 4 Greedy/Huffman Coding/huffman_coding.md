@@ -101,3 +101,5 @@ character    code-word<br>
 
 
 <br>
+###Link to practice question -
+https://practice.geeksforgeeks.org/problems/huffman-encoding3345/1
