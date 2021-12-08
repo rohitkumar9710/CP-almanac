@@ -105,11 +105,11 @@
         "Discord username": "DOGE#4084",
     },
      {
-        "Name": "your name",
-        "NickName": "your nickname",
-        "Institute": "your institute",
-        "GitHub ID": "url",
-        "Discord username": "username",
+        "Name": "surya teja",
+        "NickName": "surya",
+        "Institute": "Indian Institute of Technology patna",
+        "GitHub ID": "https://github.com/surya-cr7",
+        "Discord username": "bieber#8972",
     },
      {
         "Name": "your name",
@@ -118,5 +118,13 @@
         "GitHub ID": "url",
         "Discord username": "username",
     }
+    {
+        "Name": "your name",
+        "NickName": "your nickname",
+        "Institute": "your institute",
+        "GitHub ID": "url",
+        "Discord username": "username",
+    }
     
+
 ]
