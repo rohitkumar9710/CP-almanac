@@ -29,7 +29,7 @@ int main()
                         if (mo <= 12 && mo >= 1)
                         {
                         	
-                            if ((d <= 31 && (mo == 1 || mo == 3 || mo == 5 || mo == 7 || mo == 8 || mo == 10 || mo == 12)) || (d <= 28 && mo == 2) ||(d <= 30)) // proper paranthesis with correct usage of && and || 
+                            if ((d <= 31 && (mo == 1 || mo == 3 || mo == 5 || mo == 7 || mo == 8 || mo == 10 || mo == 12)) || (d <= 28 && mo == 2) ||(d <= 30 && mo!=2)) // proper paranthesis with correct usage of && and || 
                             
                             {
 
