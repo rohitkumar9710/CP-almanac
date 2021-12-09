@@ -105,6 +105,20 @@
         "Discord username": "DOGE#4084",
     },
     {
+        "Name": "surya teja",
+        "NickName": "surya",
+        "Institute": "Indian Institute of Technology patna",
+        "GitHub ID": "https://github.com/surya-cr7",
+        "Discord username": "bieber#8972",
+    },
+    {
+        "Name": "your name",
+        "NickName": "your nickname",
+        "Institute": "your institute",
+        "GitHub ID": "url",
+        "Discord username": "username",
+    },
+    {
         "Name": "Padmaksh Mishra",
         "NickName": "Coding_Duck",
         "Institute": "Indian Institute Of Technology, Patna",
@@ -306,5 +320,39 @@
         "GitHub ID": "https://github.com/ShaazHussain",
         "Discord username": "PoisonousSnake#6494",
     },
-
+    {
+        "Name": "Ananmay Dwivedi",
+        "NickName": "Ananmay",
+        "Institute":"Indian Insititute of Technology, Patna",
+        "GitHub ID": "https://github.com/Ananmayd",
+        "Discord username": "Ananmay Dwivedi#1625"
+    },
+    {
+        "Name": "Sarthak Mandal",
+        "NickName": "Sarthak",
+        "Institute": "Indian Institute Of Technology Patna",
+        "GitHub ID": "https://github.com/Sarthakmandal",
+        "Discord username":"sarthak#8751"
+    },
+    {
+        "Name": "Arkadeep Acharya",
+        "NickName": "Arka",
+        "Institute": "Indian institute Of Technology, Patna",
+        "GitHub ID": "https://github.com/ArkadeepAcharya",
+        "Discord username": "ARKADEEP#2255",
+    },
+    {
+        "Name": "Saranya Tiwari",
+        "NickName": "Saranya",
+        "Institute": "Indian Institute of Technology Patna",
+        "GitHub ID": "https://github.com/saranyaxyz",
+        "Discord username": "username"
+    },
+    {
+        "Name": "Aviral Srivastava",
+        "NickName": "Aviral",
+        "Institute": "Indian Institute of Technology, Patna",
+        "GitHub ID": "https://github.com/Aviral-2393",
+        "Discord username": "ansh2393#0223"
+    },
 ]
