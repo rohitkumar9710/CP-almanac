@@ -1,6 +1,6 @@
 # STL priority_queues
 
-### Defination : 
+### Definition : 
 <li>Priority queue is a data structure.
 Every data structure is designed to perform effectively for some special purposes. Example, Red Black tree is a data structure whose one of the major functionality is searching an element in O(logn).
 
