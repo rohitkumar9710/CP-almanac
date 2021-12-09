@@ -65,7 +65,7 @@ pq : 15 11 10 5
 pop() // Remove the top priority element
 pq : 11 10 5
 ```
-**NOTE :**The elements after the highest priority element need not be in an order (the reason I have kept sorted is to avoid confusion while seeing example) because you can see max heap where elements will not be stored in a sorted order.
+**NOTE :** The elements after the highest priority element need not be in an order (the reason I have kept sorted is to avoid confusion while seeing example) because you can see max heap where elements will not be stored in a sorted order.
 
 Priority queue where elements are stored according to high priority (Can be considered as max heap)
 CODE : 
