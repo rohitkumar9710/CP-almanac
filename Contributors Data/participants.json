@@ -105,6 +105,20 @@
         "Discord username": "DOGE#4084",
     },
     {
+        "Name": "surya teja",
+        "NickName": "surya",
+        "Institute": "Indian Institute of Technology patna",
+        "GitHub ID": "https://github.com/surya-cr7",
+        "Discord username": "bieber#8972",
+    },
+    {
+        "Name": "your name",
+        "NickName": "your nickname",
+        "Institute": "your institute",
+        "GitHub ID": "url",
+        "Discord username": "username",
+    },
+    {
         "Name": "Padmaksh Mishra",
         "NickName": "Coding_Duck",
         "Institute": "Indian Institute Of Technology, Patna",
@@ -299,11 +313,18 @@
         "GitHub ID": "https://github.com/mikrokosmos2109",
         "Discord username": "Keerti Lata#6750",
     },
- {
+    {
         "Name": "Saranya Tiwari",
         "NickName": "Saranya",
         "Institute": "Indian Institute of Technology Patna",
         "GitHub ID": "https://github.com/saranyaxyz",
         "Discord username": "username"
+    },
+    {
+        "Name": "Aviral Srivastava",
+        "NickName": "Aviral",
+        "Institute": "Indian Institute of Technology, Patna",
+        "GitHub ID": "https://github.com/Aviral-2393",
+        "Discord username": "ansh2393#0223"
     },
 ]
