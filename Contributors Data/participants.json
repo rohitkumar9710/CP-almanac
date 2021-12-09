@@ -250,13 +250,7 @@
         "GitHub ID": "https://github.com/aishez/",
         "Discord username": "aishez",
     },
-    {
-        "Name": "your name",
-        "NickName": "your nickname",
-        "Institute": "your institute",
-        "GitHub ID": "url",
-        "Discord username": "username"
-    },
+
 		{
         "Name": "Tarun Teja",
         "NickName": "Tarun",
@@ -312,6 +306,13 @@
         "Institute": "Indian institute Of Technology, Guwahati",
         "GitHub ID": "https://github.com/mikrokosmos2109",
         "Discord username": "Keerti Lata#6750",
+    },
+    {
+        "Name": "Aditi Verma",
+        "NickName": "Jiya",
+        "Institute": "Indian institute Of Technology Patna",
+        "GitHub ID": "https://github.com/ADITIJIYA28",
+        "Discord username": "Jiya#3915"
     },
     {
         "Name": "anushree tiwari",
