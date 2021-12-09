@@ -2,7 +2,7 @@
 
 ### Defination : 
 <li>Priority queue is a data structure.
-Every data structure is designed to perform effectively for some special purposes. Example, Binary Search tree is a data structure whose one of the major functionality is searching an element in O(1).
+Every data structure is designed to perform effectively for some special purposes. Example, Red Black tree is a data structure whose one of the major functionality is searching an element in O(logn).
 
 So lets see in which cases priority queue performs the best
 ## Functionality of priority_queues
