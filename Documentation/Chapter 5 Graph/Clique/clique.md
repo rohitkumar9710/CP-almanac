@@ -3,7 +3,7 @@
 <br>
 
 ### What is clique in graph?
-#### A clique is subset of vertices of graph such that any two vertices of the subset are connected ( adjacent) to each other i.e each vertex of the subset should be connected with every other vertices of the subset.
+#### A clique is subset of vertices of graph such that any two vertices of the subset are connected ( adjacent) to each other i.e each vertex of the subset is connected with every other vertices of the subset.
 
 <br>
 
