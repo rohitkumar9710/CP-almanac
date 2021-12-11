@@ -97,7 +97,7 @@
         "GitHub ID": "https://github.com/Pranav108",
         "Discord username": "Pranav108"
     },
-     {
+    {
         "Name": "Ayush Singh",
         "NickName": "Ayush",
         "Institute": "Indian Institute of Technology, Kanpur",
@@ -110,13 +110,6 @@
         "Institute": "Indian Institute of Technology patna",
         "GitHub ID": "https://github.com/surya-cr7",
         "Discord username": "bieber#8972",
-    },
-    {
-        "Name": "your name",
-        "NickName": "your nickname",
-        "Institute": "your institute",
-        "GitHub ID": "url",
-        "Discord username": "username",
     },
     {
         "Name": "Padmaksh Mishra",
@@ -166,7 +159,7 @@
         "GitHub ID": "https://github.com/Dhruv-iitp",
         "Discord username": "Dhruv K.Agr.#7600",
     },
-	  {
+    {
         "Name": "Nishita Lath",
         "NickName": "Nishita",
         "Institute": "Indian Institute of Technology, Patna",
@@ -250,8 +243,7 @@
         "GitHub ID": "https://github.com/aishez/",
         "Discord username": "aishez",
     },
-
-		{
+    {
         "Name": "Tarun Teja",
         "NickName": "Tarun",
         "Institute": "Indian Institute of Technology, Patna",
@@ -433,4 +425,32 @@
         "GitHub ID": "https://github.com/amanagr6697",
         "Discord username": "AmanA"
     },
+    {
+        "Name": "your name",
+        "NickName": "your nickname",
+        "Institute": "your institute",
+        "GitHub ID": "url",
+        "Discord username": "username",
+    },
+    {
+        "Name": "your name",
+        "NickName": "your nickname",
+        "Institute": "your institute",
+        "GitHub ID": "url",
+        "Discord username": "username",
+    },
+    {
+        "Name": "your name",
+        "NickName": "your nickname",
+        "Institute": "your institute",
+        "GitHub ID": "url",
+        "Discord username": "username",
+    },
+    {
+        "Name": "your name",
+        "NickName": "your nickname",
+        "Institute": "your institute",
+        "GitHub ID": "url",
+        "Discord username": "username",
+    }
 ]
