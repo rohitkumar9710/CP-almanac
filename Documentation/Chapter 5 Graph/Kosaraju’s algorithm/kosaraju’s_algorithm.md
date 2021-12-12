@@ -8,7 +8,7 @@ You would already be knowing what a connected component means...But let's iterat
 
 <br>
  
-![image](https://user-images.githubusercontent.com/62798923/144748067-47ff5d30-bb12-45b6-9730-e7332e9d6b64.png)
+![image](https://user-images.githubusercontent.com/95862904/145715317-99ddd9b6-a511-4c29-b44b-288a35b8a7ee.jpg)
 
 <br>
 
@@ -35,14 +35,14 @@ Now, as we know from the definition in an SCC if there exists a path from A to B
 #### 1. Perform a normal DFS traversal on the graph and push nodes in the stack before and after completing its traversal and before returning from that node.
 <br>
  
-![image](https://user-images.githubusercontent.com/62798923/144748067-47ff5d30-bb12-45b6-9730-e7332e9d6b64.png)
+![image](https://user-images.githubusercontent.com/95862904/145715312-499a115e-61cb-4902-ba6c-d5edc3694345.png)
 
 Suppose we have this graph and after traversal, we get a stack like this.
 <br>
 2. Then make a transposed graph with the same nodes and all directions reversed.
 <br>
  
-![image](https://user-images.githubusercontent.com/62798923/144748067-47ff5d30-bb12-45b6-9730-e7332e9d6b64.png)
+![image](https://user-images.githubusercontent.com/95862904/145715314-29978eaf-33dc-4656-a499-106c057f6386.png)
 
 <br>
 
