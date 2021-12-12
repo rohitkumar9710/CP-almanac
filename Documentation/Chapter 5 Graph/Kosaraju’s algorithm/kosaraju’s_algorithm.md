@@ -3,8 +3,7 @@
 <br>
 ### Comparison with undirected graph and explanation:
 
-#### You would already be knowing what a connected component means...
-But let's iterate it again for sake of completeness... In the undirected graph, a subgraph in which you can reach every node from every other node, that subgraph is termed as a single connected component. The image below illustrates this effectively.
+#### You would already be knowing what a connected component means...But let's iterate it again for sake of completeness... In the undirected graph, a subgraph in which you can reach every node from every other node, that subgraph is termed as a single connected component. The image below illustrates this effectively.
 
  <br>
  
@@ -205,9 +204,13 @@ signed main()
 ```
 <br>
 #### Practice Problems: (Sorted in increasing order of difficulty)
+<br>
 https://www.spoj.com/problems/LEGO/
+<br>
 https://cses.fi/problemset/task/1683/
+<br>
 https://cses.fi/problemset/task/1686/
+<br>
 https://codeforces.com/contest/22/problem/E
 
 
