@@ -8,7 +8,7 @@ You would already be knowing what a connected component means...But let's iterat
 
 <br>
  
-![image](https://user-images.githubusercontent.com/95862904/145715317-99ddd9b6-a511-4c29-b44b-288a35b8a7ee.jpg)
+![image]<img height="42" width="42">(https://user-images.githubusercontent.com/95862904/145715317-99ddd9b6-a511-4c29-b44b-288a35b8a7ee.jpg)
 
 <br>
 
