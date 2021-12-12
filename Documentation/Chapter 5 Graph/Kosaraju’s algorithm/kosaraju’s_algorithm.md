@@ -6,9 +6,6 @@
 <br>
 You would already be knowing what a connected component means...But let's iterate it again for sake of completeness... In the undirected graph, a subgraph in which you can reach every node from every other node, that subgraph is termed as a single connected component. The image below illustrates this effectively.
 
-<br>
- 
-![image]<img height="42" width="42">(https://user-images.githubusercontent.com/95862904/145715317-99ddd9b6-a511-4c29-b44b-288a35b8a7ee.jpg)
 
 <br>
 
