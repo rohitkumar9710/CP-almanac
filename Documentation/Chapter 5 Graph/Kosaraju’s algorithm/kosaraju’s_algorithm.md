@@ -36,26 +36,29 @@ Like from the above image you could see that if you start DFSfrom A you would co
  
  ![image](https://user-images.githubusercontent.com/62798923/144748067-47ff5d30-bb12-45b6-9730-e7332e9d6b64.png)
 
-<br>
       Suppose we have this graph and after traversal, we get a stack like this.
 
 <br>
-#### 2. Then make a transposed graph with the same nodes and all directions reversed.
+ 2. Then make a transposed graph with the same nodes and all directions reversed.
  <br>
  
  ![image](https://user-images.githubusercontent.com/62798923/144748067-47ff5d30-bb12-45b6-9730-e7332e9d6b64.png)
 
 <br>
 
-#### 3. After that use nodes from the stack, one by one and do DFS in the reversed graph and pop the nodes after they are visited.
+3. After that use nodes from the stack, one by one and do DFS in the reversed graph and pop the nodes after they are visited.
 
 <br>
 ### Now performing DFS as per the stack we see that we would get SCC’s as follows:
 <br>
 1. 7
+<br>
 2. 6 5 4
+<br>
 3. 3
+<br>
 4. 2 1 0
+<br>
 And hence our algorithm completes and provides us desired answer.
 <br>
 ### Explanation and code
@@ -75,6 +78,7 @@ You just need to firstly find size of all SCC’s by Kosaraju’s algo and then 
 <br>
 ### Implementation
 <br>
+
 ```
 /* Aman Agrawal */
 
