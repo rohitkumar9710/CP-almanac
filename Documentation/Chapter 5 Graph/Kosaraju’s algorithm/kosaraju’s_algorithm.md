@@ -2,7 +2,7 @@
 ### Sub-topic - Finding Strongly Connected Components by Kosaraju's algorithm.
 <br>
 <br>
-### <b><u><i>Comparison with undirected graph and explanation:</i></u></b>
+ ### <b><u><i>Comparison with undirected graph and explanation:</i></u></b>
 <br>
 <br>
 You would already be knowing what a connected component means...But let's iterate it again for sake of completeness... In the undirected graph, a subgraph in which you can reach every node from every other node, that subgraph is termed as a single connected component. The image below illustrates this effectively.
@@ -13,13 +13,13 @@ You would already be knowing what a connected component means...But let's iterat
 
 <br>
 
-### But, in the case of directed graphs things are not that      
-    straightforward, as you may be having an edge from a---->b but not from   b---->a.
- So, a subgraph in a directed graph is termed as a strongly connected component if you can reach every other node from any node in that subgraph.
- An image here illustrated this beautifully.
- <br>
+But, in the case of directed graphs things are not that      
+straightforward, as you may be having an edge from a---->b but not from   b---->a.
+So, a subgraph in a directed graph is termed as a strongly connected component if you can reach every other node from any node in that subgraph.
+An image here illustrated this beautifully.
+<br>
  
- ![image](https://user-images.githubusercontent.com/62798923/144748067-47ff5d30-bb12-45b6-9730-e7332e9d6b64.png)
+![image](https://user-images.githubusercontent.com/62798923/144748067-47ff5d30-bb12-45b6-9730-e7332e9d6b64.png)
 
 <br>
 Here you could see that in component –>(A, B, C, D) you can reach every other node from every node and similarly in component →(F, G, H) but not to one another. So, these 2 subgraphs are termed SCC's.
@@ -41,7 +41,7 @@ Now, as we know from the definition in an SCC if there exists a path from A to B
  
  ![image](https://user-images.githubusercontent.com/62798923/144748067-47ff5d30-bb12-45b6-9730-e7332e9d6b64.png)
 
-      Suppose we have this graph and after traversal, we get a stack like this.
+Suppose we have this graph and after traversal, we get a stack like this.
 
 <br>
  2. Then make a transposed graph with the same nodes and all directions reversed.
@@ -54,7 +54,7 @@ Now, as we know from the definition in an SCC if there exists a path from A to B
 3. After that use nodes from the stack, one by one and do DFS in the reversed graph and pop the nodes after they are visited.
 
 <br>
-### Now performing DFS as per the stack we see that we would get SCC’s as follows:
+<b>Now performing DFS as per the stack we see that we would get SCC’s as follows:</b>
 <br>
 1. 7
 <br>
@@ -74,16 +74,11 @@ Now, let’s see a question:
 <br>
 Q.You are given a directed graph, find : <b><i>SIGMA F(i,j) for all i,j where j>i.</i></b> <b>where <i> F(i,j)</i> gives us profuct of size of ith SCC multiplied by jth SCC.
 <br>
-<br>
-<br>
 Constraints: 1<=N<=1,00,000 and 0<=M<=1,00,000 where N is number of nodes and M is number of edges.
-<br>
 <br>
 Example: Suppose you have SCC’s of size 2,3,4 then ans=(2*3+2*4+3*4)=26
 <br>
-<br>
-<b><u>Solution</u></b>
-<br>
+<b><u>Solution:</u></b>
 <br>
 <b>You just need to firstly find size of all SCC’s by Kosaraju’s algo and then after that maintain a prefix array and do: size[i]*(prefix_sum[total num of SCC’s]-prefix_sum[i]) for all i from 1 to n where n is total number of SCC’s.</b>
 <br>
