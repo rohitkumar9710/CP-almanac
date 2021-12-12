@@ -209,7 +209,7 @@ signed main()
 }
 ```
 <br>
-#### Practice Problems: (Sorted in increasing order of difficulty)
+<b>Practice Problems: (Sorted in increasing order of difficulty)</b>
 <br>
 <br>
 https://www.spoj.com/problems/LEGO/
