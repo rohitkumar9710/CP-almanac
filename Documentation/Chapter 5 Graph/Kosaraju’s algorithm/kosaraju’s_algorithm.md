@@ -1,8 +1,7 @@
 ### Topic name - GRAPHS
 ### Sub-topic - Finding Strongly Connected Components by Kosaraju's algorithm.
 <br>
-<br>
-<b><u><i>Comparison with undirected graph and explanation:</i></u></b>
+### Comparison with undirected graph and explanation:
 <br>
 <br>
 You would already be knowing what a connected component means...But let's iterate it again for sake of completeness... In the undirected graph, a subgraph in which you can reach every node from every other node, that subgraph is termed as a single connected component. The image below illustrates this effectively.
@@ -19,7 +18,7 @@ So, a subgraph in a directed graph is termed as a strongly connected component i
 An image here illustrated this beautifully.
 <br>
  
-![image](https://user-images.githubusercontent.com/62798923/144748067-47ff5d30-bb12-45b6-9730-e7332e9d6b64.png)
+![image](https://user-images.githubusercontent.com/95862904/145715340-089235a9-28ab-4314-8bce-8941c50e7823.png)
 <br>
 Here you could see that in component –>(A, B, C, D) you can reach every other node from every node and similarly in component →(F, G, H) but not to one another. So, these 2 subgraphs are termed SCC's.
 <br>
