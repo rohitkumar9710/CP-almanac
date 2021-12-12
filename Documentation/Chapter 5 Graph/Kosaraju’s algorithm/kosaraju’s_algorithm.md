@@ -3,7 +3,7 @@
 <br>
 ### Comparison with undirected graph and explanation:
 
-#### You would already be knowing what a connected component means...But let's iterate it again for sake of completeness... In the undirected graph, a subgraph in which you can reach every node from every other node, that subgraph is termed as a single connected component. The image below illustrates this effectively.
+ You would already be knowing what a connected component means...But let's iterate it again for sake of completeness... In the undirected graph, a subgraph in which you can reach every node from every other node, that subgraph is termed as a single connected component. The image below illustrates this effectively.
 
  <br>
  
@@ -11,20 +11,22 @@
 
 <br>
 
-### But, in the case of directed graphs things are not that straightforward, as you may be having an edge from a---->b but not from b---->a.
-So, a subgraph in a directed graph is termed as a strongly connected component if you can reach every other node from any node in that subgraph.
-An image here illustrated this beautifully.
+### But, in the case of directed graphs things are not that      
+    straightforward, as you may be having an edge from a---->b but not from   b---->a.
+ So, a subgraph in a directed graph is termed as a strongly connected component if you can reach every other node from any node in that subgraph.
+ An image here illustrated this beautifully.
  <br>
  
  ![image](https://user-images.githubusercontent.com/62798923/144748067-47ff5d30-bb12-45b6-9730-e7332e9d6b64.png)
 
 <br>
-### Here you could see that in component –>(A, B, C, D) you can reach every other node from every node and similarly in component →(F, G, H) but not to one another. So, these 2 subgraphs are termed SCC's.
+### Here you could see that in component –>(A, B, C, D) you can reach  
+    every other node from every node and similarly in component →(F, G, H) but not to one another. So, these 2 subgraphs are termed SCC's.
 <br>
-Now, for finding connected components in an undirected graph you could simply run aDFS, but to find SCC it may not be sufficient as ultimately you could reach other nodes also which are not a part of SC.
+#### Now, for finding connected components in an undirected graph you could simply run aDFS, but to find SCC it may not be sufficient as ultimately you could reach other nodes also which are not a part of SC.
 Like from the above image you could see that if you start DFSfrom A you would cover F,G, and H also, but they are not part of SCC’s. But if you start your DFS from F you would traverse only F, G, H and then after that doing from A you would cover A, B, C, and D which should be our answer. So, we found out that we need to somehow smartly do DFS so that it solves our purpose.
 <br>
-### Now, as we know from the definition in an SCC if there exists a path from A to B then if we reverse all the edges then conditions should be satisfied. We would use this property only and define an order for DFS traversal by storing all nodes in a stack after their DFS traversal is completed in a normal DFS. This way we ensured that after reversing all the edges when we would do DFS by taking out nodes from the stack it would be ensured that after completing traversal from that node all the nodes lying in that SCC would come to us and only those would come as the stack is maintained like that only.
+#### Now, as we know from the definition in an SCC if there exists a path from A to B then if we reverse all the edges then conditions should be satisfied. We would use this property only and define an order for DFS traversal by storing all nodes in a stack after their DFS traversal is completed in a normal DFS. This way we ensured that after reversing all the edges when we would do DFS by taking out nodes from the stack it would be ensured that after completing traversal from that node all the nodes lying in that SCC would come to us and only those would come as the stack is maintained like that only.
 <br>
 ### Algorithm Detailed Explanation
 <br>
@@ -71,8 +73,8 @@ Solution:
 <br>
 You just need to firstly find size of all SCC’s by Kosaraju’s algo and then after that maintain a prefix array and do: size[i]*(prefix_sum[total num of SCC’s]-prefix_sum[i]) for all i from 1 to n where n is total number of SCC’s.
 <br>
-#### Implementation
-
+### Implementation
+<br>
 ```
 /* Aman Agrawal */
 
@@ -204,6 +206,7 @@ signed main()
 ```
 <br>
 #### Practice Problems: (Sorted in increasing order of difficulty)
+<br>
 <br>
 https://www.spoj.com/problems/LEGO/
 <br>
