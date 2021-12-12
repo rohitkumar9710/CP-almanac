@@ -9,13 +9,15 @@
 
 ### Explanation 
 #### To demonstrate what has been explained above , we will solve famous two clique problem. In this problem , we are given a graph , we need to check whether given graph can be divided into two cliques or not.  Before moving ahead we will learn two new concepts to solve this problem :
-![image](https://user-images.githubusercontent.com/62798923/145687191-bcd3e0f4-0b96-437a-b765-2bcbd5ba5d64.png)
+![image](https://user-images.githubusercontent.com/62798923/145722749-a923032e-35e9-4f8b-bf90-0bf11cfa9b0a.png)
+
 
 #### 1. Complement of a graph : To find the complement of a graph , we remove all actual edges and add edges between vertices which didn't have edge earlier.
-![image](https://user-images.githubusercontent.com/62798923/145687206-deebcb4a-b069-456c-8b6f-049e2f5a2810.png)
+![image](https://user-images.githubusercontent.com/62798923/145722948-71fd37b8-b268-4c45-a1ca-f4ee7e69bfd6.png)
 
 #### 2. Bipartite graph :  If graph can be coloured from only two colours such that any two vertices of same colour are not adjacent(connected),  then graph is bipartite.
-![image](https://user-images.githubusercontent.com/62798923/145687330-30661488-ac57-49ef-baf6-f779a900d3bf.png)
+![image](https://user-images.githubusercontent.com/62798923/145722120-0ebf19bb-44a5-4e3c-b70c-6e8145a362e9.png)
+
 
 
 #### Algorithm : If complement of graph is bipartite , then graph can be divided into two cliques otherwise not .
