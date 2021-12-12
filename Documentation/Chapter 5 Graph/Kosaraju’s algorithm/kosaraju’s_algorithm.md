@@ -20,7 +20,6 @@ An image here illustrated this beautifully.
 <br>
  
 ![image](https://user-images.githubusercontent.com/62798923/144748067-47ff5d30-bb12-45b6-9730-e7332e9d6b64.png)
-
 <br>
 Here you could see that in component –>(A, B, C, D) you can reach every other node from every node and similarly in component →(F, G, H) but not to one another. So, these 2 subgraphs are termed SCC's.
 <br>
@@ -33,8 +32,11 @@ Now, as we know from the definition in an SCC if there exists a path from A to B
 <br>
 <br>
 <b><u><i>Algorithm Detailed Explanation</i></u></b>
-<br>
-<br>
+
+
+
+
+
 
 #### 1. Perform a normal DFS traversal on the graph and push nodes in the stack before and after completing its traversal and before returning from that node.
  <br>
