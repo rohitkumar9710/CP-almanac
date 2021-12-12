@@ -24,6 +24,35 @@
 #### But why does this algorithm is correct? 
 #### If complement of graph is bipartite, then we can the partition the complement graph into two disjoint sets , such that there is no edge connecting the vertices of the same set. Then in actual graph, these two sets have the property of being a clique( each vertex of the set is connected with every other vertex).
 
+### Pseudocode :
+```
+  bool function for bipartness check of graph component(input graph, current node, color array, current color)
+  {
+      if node is already painted , and its color is different from current color, return false;
+      Paint the node with current color
+      FOR each neighbour of node{
+         if not colored : paint it with color different from current color
+         else : if color is same as current color, return false
+      }
+      Bipartite coloring has been done, return true
+      
+  }
+  bool function for color initialisation and call for bipartness check for each component (input graph){
+        Initialise color of each node of the graph with -1, denoting node is not painted yet
+        FOR each not painted node : Function call for bipartness check 
+  }
+  bool function for checking the division into two cliques and for finding complement (input graph){
+          Create another graph ,complement
+          FOR each edge not present in input graph, add that edge in complement graph
+          Function call for bipartness check of the complement graph
+          if complement graph is bipartite then division is possible otherwise not, return that 
+  }
+  main function() {
+      input graph 
+      Function call for division check
+  ]
+  
+```
 ### Code :
 ```
 
