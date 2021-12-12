@@ -2,7 +2,7 @@
 ### Sub-topic - Finding Strongly Connected Components by Kosaraju's algorithm.
 <br>
 <br>
- ### <b><u><i>Comparison with undirected graph and explanation:</i></u></b>
+<b><u><i>Comparison with undirected graph and explanation:</i></u></b>
 <br>
 <br>
 You would already be knowing what a connected component means...But let's iterate it again for sake of completeness... In the undirected graph, a subgraph in which you can reach every node from every other node, that subgraph is termed as a single connected component. The image below illustrates this effectively.
@@ -72,11 +72,15 @@ And hence our algorithm completes and provides us desired answer.
 <br>
 Now, let’s see a question:
 <br>
+<br>
 Q.You are given a directed graph, find : <b><i>SIGMA F(i,j) for all i,j where j>i.</i></b> <b>where <i> F(i,j)</i> gives us profuct of size of ith SCC multiplied by jth SCC.
+<br>
 <br>
 Constraints: 1<=N<=1,00,000 and 0<=M<=1,00,000 where N is number of nodes and M is number of edges.
 <br>
+<br>
 Example: Suppose you have SCC’s of size 2,3,4 then ans=(2*3+2*4+3*4)=26
+<br>
 <br>
 <b><u>Solution:</u></b>
 <br>
