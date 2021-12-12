@@ -33,23 +33,17 @@ Now, as we know from the definition in an SCC if there exists a path from A to B
 <br>
 <b><u><i>Algorithm Detailed Explanation</i></u></b>
 
-
-
-
-
-
 #### 1. Perform a normal DFS traversal on the graph and push nodes in the stack before and after completing its traversal and before returning from that node.
- <br>
+<br>
  
- ![image](https://user-images.githubusercontent.com/62798923/144748067-47ff5d30-bb12-45b6-9730-e7332e9d6b64.png)
+![image](https://user-images.githubusercontent.com/62798923/144748067-47ff5d30-bb12-45b6-9730-e7332e9d6b64.png)
 
 Suppose we have this graph and after traversal, we get a stack like this.
-
 <br>
- 2. Then make a transposed graph with the same nodes and all directions reversed.
- <br>
+2. Then make a transposed graph with the same nodes and all directions reversed.
+<br>
  
- ![image](https://user-images.githubusercontent.com/62798923/144748067-47ff5d30-bb12-45b6-9730-e7332e9d6b64.png)
+![image](https://user-images.githubusercontent.com/62798923/144748067-47ff5d30-bb12-45b6-9730-e7332e9d6b64.png)
 
 <br>
 
