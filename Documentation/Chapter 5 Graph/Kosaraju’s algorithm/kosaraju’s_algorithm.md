@@ -4,13 +4,12 @@
 ### Comparison with undirected graph and explanation:
 <br>
 <br>
-You would already be knowing what a connected component means...But let's iterate it again for sake of completeness... In the undirected graph, a subgraph in which you can reach every node from every other node, that subgraph is termed as a single connected component. The image below illustrates this effectively.
-
+You would already be knowing what a connected component means...But let's iterate it again for sake of completeness... In the undirected graph, a subgraph in which you can reach every node from every other node, that subgraph is termed as a single connected component. 
 
 <br>
+<br>
 
-But, in the case of directed graphs things are not that      
-straightforward, as you may be having an edge from a---->b but not from   b---->a.
+But, in the case of directed graphs things are not that straightforward, as you may be having an edge from a---->b but not from   b---->a.
 So, a subgraph in a directed graph is termed as a strongly connected component if you can reach every other node from any node in that subgraph.
 An image here illustrated this beautifully.
 <br>
