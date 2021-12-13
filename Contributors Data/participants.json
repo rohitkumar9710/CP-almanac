@@ -480,5 +480,12 @@
         "Institute": "your institute",
         "GitHub ID": "url",
         "Discord username": "username",
+    },
+    {
+        "Name": "Mamta Kanwar",
+        "NickName": "Mamta",
+        "Institute": "Indian Institute of Technology, Patna",
+        "GitHub ID": "https://github.com/kanwarmamta",
+        "Discord username": "Mamta|CSE#6339",
     }
 ]
