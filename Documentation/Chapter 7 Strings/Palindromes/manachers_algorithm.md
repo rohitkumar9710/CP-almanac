@@ -22,7 +22,9 @@
 #### Let's solve a simple problem based on it.
 #### We will check our longest palidromic substring in "abaaba"
 After adding 'X' to the string, the new string will become:
-XaXbXaXaXbXaX
+
+"XaXbXaXaXbXaX"
+
 We can store longest palindromic substring in array named P.
 (Remember that the characters of string which are bold is the part of current palindromic substring.)
 Let's start by taking the first center as index 0. 
@@ -88,6 +90,6 @@ So now to get our longest palindromic substring, we should remove 'X' from the s
 <br>
 
 ### Practice Problem
-#### [Longest Palindromic Substring] (https://leetcode.com/problems/longest-palindromic-substring)
+1. [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
 
 <br>
