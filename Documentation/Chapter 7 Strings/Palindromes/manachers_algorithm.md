@@ -26,37 +26,51 @@ XaXbXaXaXbXaX
 We can store longest palindromic substring in array named P.
 (Remember that the characters of string which are bold is the part of current palindromic substring.)
 Let's start by taking the first center as index 0. 
+
+
 |**Index**|:-:|0|1|2|3|4|5|6|7|8|9|10|11|12|
 |**String**|:-:|**X**|a|X|b|X|a|X|a|X|b|X|a|X|
-|**P**|:-:|1|||||||||||||
+|**P**|:-:|1| | | | | | | | | | | | |
 
 Now our next center will be index 1 (4th point).
+
+
 |**Index**|:-:|0|1|2|3|4|5|6|7|8|9|10|11|12|
 |**String**|:-:|**X**|**a**|**X**|b|X|a|X|a|X|b|X|a|X|
-|**P**|:-:|1|3||||||||||||
+|**P**|:-:|1|3| | | | | | | | | | | |
 
 Now our next center will be index 2 (1st point).
+
+
 |**Index**|:-:|0|1|2|3|4|5|6|7|8|9|10|11|12|
 |**String**|:-:|X|a|**X**|b|X|a|X|a|X|b|X|a|X|
-|**P**|:-:|1|3|1|||||||||||
+|**P**|:-:|1|3|1| | | | | | | | | | |
 
 Now our next center will be index 3 (4th point).
+
+
 |**Index**|:-:|0|1|2|3|4|5|6|7|8|9|10|11|12|
 |**String**|:-:|**X**|**a**|**X**|**b**|**X**|**a**|**X**|a|X|b|X|a|X|
-|**P**|:-:|1|3|1|7||||||||||
+|**P**|:-:|1|3|1|7| | | | | | | | | |
 
 Now our next center will be index 5 (1st point). Index 4 can't be our center (3rd point).
+
+
 |**Index**|:-:|0|1|2|3|4|5|6|7|8|9|10|11|12|
 |**String**|:-:|X|a|X|b|**X**|**a**|**X**|a|X|b|X|a|X|
-|**P**|:-:|1|3|1|7|1|3||||||||
+|**P**|:-:|1|3|1|7|1|3| | | | | | | |
 
 Now our next center will be index 6 (1st point).
+
+
 |**Index**|:-:|0|1|2|3|4|5|6|7|8|9|10|11|12|
 |**String**|:-:|**X**|**a**|**X**|**b**|**X**|**a**|**X**|**a**|**X**|**b**|**X**|**a**|**X**|
-|**P**|:-:|1|3|1|7|1|3|13|||||||
+|**P**|:-:|1|3|1|7|1|3|13| | | | | | |
 
 So now our current palindromic substring expands till the end of the string. So we can now exit this process (5th point).
 Finally the P array will be:
+
+
 |**Index**|:-:|0|1|2|3|4|5|6|7|8|9|10|11|12|
 |**String**|:-:|**X**|**a**|**X**|**b**|**X**|**a**|**X**|**a**|**X**|**b**|**X**|**a**|**X**|
 |**P**|:-:|1|3|1|7|1|3|13|3|1|7|1|3|1|
@@ -67,6 +81,6 @@ So now to get our longest palindromic substring, we should remove 'X' from the s
 <br>
 
 ### Practice Problem
-#### 
+#### [Longest Palindromic Substring] (https://leetcode.com/problems/longest-palindromic-substring)
 
 <br>
